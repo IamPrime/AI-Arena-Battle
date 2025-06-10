@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Envs
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Streamlit cache and logs
+.streamlit/
+logs/
+
+# OS files
+.DS_Store
+
+# Docker
+*.db
+
+# Duplicates
+*copy.*
