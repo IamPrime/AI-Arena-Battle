@@ -2,3 +2,4 @@ streamlit
 pymongo
 requests
 python-dotenv
+aiohttp

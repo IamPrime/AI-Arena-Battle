@@ -149,6 +149,10 @@ python --version
 Install required packages:
 
 ```bash
+python -m venv venv # Optionally create a virtual environment
+source venv/Scripts/activate # Activate the virtual environment
+pip install pip-tools
+pip-compile requirements.in
 pip install -r requirements.txt
 ```
 
