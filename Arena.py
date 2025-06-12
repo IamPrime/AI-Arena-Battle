@@ -6,6 +6,8 @@ st.set_page_config(page_title="ComplexFlow-Arena", page_icon="🤖", layout="wid
 import asyncio
 import random
 import aiohttp
+from dotenv import load_dotenv
+load_dotenv()
 from src.config import Config
 from src.database.repository import DatabaseRepository
 from src.security.input_sanitizer import SecurityValidator

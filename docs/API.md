@@ -5,8 +5,9 @@
 ### Endpoint Configuration
 
 ```python
-OLLAMA_URL = "https://genai.rcac.purdue.edu/ollama/api/chat"
+OLLAMA_URL = "https://genai.rcac.purdue.edu/ollama/api/generate"
 OPENAI_COMPATIBLE_URL = "https://genai.rcac.purdue.edu/api/chat/completions"
+# OLLAMA_URL = "https://genai.rcac.purdue.edu/ollama/api/chat"
 ```
 
 ### Authentication
