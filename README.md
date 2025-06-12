@@ -22,6 +22,6 @@ A Streamlit application for comparing LLM responses with anonymous voting.
 
 ## 📚 Full Documentation
 
-- [Complete Setup Guide](docs/DOCUMENTATION.md)
+- [Complete Setup Guide](docs/ABOUT.md)
 - [API Documentation](docs/API.md)
 - [Troubleshooting](docs/TROUBLESHOOTING.md)

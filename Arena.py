@@ -20,8 +20,9 @@ logger = setup_logger(__name__)
 SHOW_DEBUG = config.show_debug
 
 # API endpoints
-OLLAMA_URL = "https://genai.rcac.purdue.edu/ollama/api/chat"
+OLLAMA_URL = "https://genai.rcac.purdue.edu/ollama/api/generate"
 OPENAI_COMPATIBLE_URL = "https://genai.rcac.purdue.edu/api/chat/completions"
+# OPENAI_COMPATIBLE_URL = "https://genai.rcac.purdue.edu/ollama/api/generate"
 
 # Model calling function
 async def call_model(prompt, model):

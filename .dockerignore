@@ -4,3 +4,13 @@ __pycache__/
 *.pyd
 .env
 *.db
+.git/
+.gitignore
+*.md
+docs/
+.vscode/
+.idea/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
